@@ -1,0 +1,7 @@
+@mixin navTransition ($time:.2s) {
+    -webkit-transition: $time ease;
+    -moz-transition: $time ease;
+    -ms-transition: $time ease;
+    -o-transition: $time ease;
+    transition: $time ease;
+}

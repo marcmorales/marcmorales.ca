@@ -1,0 +1,58 @@
+.menu {
+    margin: 0 -15px;
+    height: 6rem;
+    font-size: 2rem;
+    line-height: 6rem;
+    text-align: center;
+    color: $white;
+    background: $dark-blue;
+    cursor: pointer;
+}
+nav ul {
+    height: 0;
+    list-style: none;
+    margin: 0 -15px;
+    padding: 0;
+    text-align: center;
+    background: $main-blue;
+    overflow: hidden;
+    @include navTransition;
+    li {
+        font-size: 2rem;
+        height: 6rem;
+        line-height: 6rem;
+        border-bottom: 1px solid $dark-blue;
+        &:last-child {
+            border-bottom: 1px solid $main-blue;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            color: $white;
+            transition: .2s background-color;
+            &:hover {
+                text-decoration: none;
+                color: $white;
+                background: $dark-blue;
+            }
+        }
+    }
+}
+.navScroll {
+    height: 24rem;
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: none;
+    }
+    nav ul {
+        height: auto;
+        li {
+        display: inline-block;
+        width: 15rem;
+        border-bottom: none;
+        margin-right: -4px;
+        }
+    } 
+}

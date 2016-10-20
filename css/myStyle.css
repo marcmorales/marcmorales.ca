@@ -1,4 +1,62 @@
-.container-fluid h1 {
-  color: aqua; }
+a:hover, a:focus {
+  color: white;
+  text-decoration: none; }
+
+.menu {
+  margin: 0 -15px;
+  height: 6rem;
+  font-size: 2rem;
+  line-height: 6rem;
+  text-align: center;
+  color: white;
+  background: #0057cc;
+  cursor: pointer; }
+
+nav ul {
+  height: 0;
+  list-style: none;
+  margin: 0 -15px;
+  padding: 0;
+  text-align: center;
+  background: #006dff;
+  overflow: hidden;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease; }
+  nav ul li {
+    font-size: 2rem;
+    height: 6rem;
+    line-height: 6rem;
+    border-bottom: 1px solid #0057cc; }
+    nav ul li:last-child {
+      border-bottom: 1px solid #006dff; }
+    nav ul li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      transition: .2s background-color; }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: white;
+        background: #0057cc; }
+
+.navScroll {
+  height: 24rem; }
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none; }
+
+  nav ul {
+    height: auto; }
+    nav ul li {
+      display: inline-block;
+      width: 15rem;
+      border-bottom: none;
+      margin-right: -4px; } }
+html, body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif; }
 
 /*# sourceMappingURL=myStyle.css.map */

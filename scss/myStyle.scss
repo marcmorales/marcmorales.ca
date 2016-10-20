@@ -1,0 +1,9 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'reset';
+@import 'navStyle';
+@import 'mediaQueries';
+
+html, body {
+    font-family: $helvetica-font-stack;
+}

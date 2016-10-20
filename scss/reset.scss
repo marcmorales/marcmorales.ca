@@ -1,0 +1,7 @@
+//Bootstrap reset
+a {
+    &:hover, &:focus {
+        color: $white;
+        text-decoration: none;
+    }
+}
