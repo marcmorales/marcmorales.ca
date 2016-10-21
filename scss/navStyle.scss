@@ -8,7 +8,11 @@
     background: $dark-blue;
     cursor: pointer;
 }
-nav ul {
+nav {
+    position: relative;
+    top:-6rem;
+    opacity: 0;
+    ul {
     height: 0;
     list-style: none;
     margin: 0 -15px;
@@ -34,10 +38,12 @@ nav ul {
                 text-decoration: none;
                 color: $white;
                 background: $dark-blue;
+                }
             }
         }
     }
 }
+
 .navScroll {
     height: 24rem;
 }
@@ -48,9 +54,13 @@ nav ul {
     }
     nav ul {
         height: auto;
+        padding-right: 30px;
+        text-align: right;
         li {
         display: inline-block;
         width: 15rem;
+        font-size: 1.8rem;
+        text-align: center;
         border-bottom: none;
         margin-right: -4px;
         }

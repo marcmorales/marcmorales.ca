@@ -2,8 +2,15 @@
 @import 'partials/mixins';
 @import 'reset';
 @import 'navStyle';
+@import 'introStyle';
 @import 'mediaQueries';
 
-html, body {
+//styles under here are global
+
+body {
     font-family: $helvetica-font-stack;
+}
+header {
+    background: $sub-blue;
+    height: 100vh;
 }

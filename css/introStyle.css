@@ -1,24 +1,33 @@
 /*
 Error: Undefined variable: "$white".
-        on line 7 of scss/navStyle.scss
+        on line 4 of scss/introStyle.scss
 
-2:     margin: 0 -15px;
-3:     height: 6rem;
-4:     font-size: 2rem;
-5:     line-height: 6rem;
-6:     text-align: center;
-7:     color: $white;
-8:     background: $dark-blue;
-9:     cursor: pointer;
-10: }
-11: nav {
-12:     position: relative;
+1: #intro {
+2:      h3 {
+3:         opacity: 0;
+4:         color: $white;
+5:          
+6:         &:first-child {
+7:             position: relative;
+8:             font-size: 2em;
+9:             text-align: center;
 
 Backtrace:
-scss/navStyle.scss:7
+scss/introStyle.scss:4
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
@@ -67,4 +76,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 7 of scss/navStyle.scss\A \A 2:     margin: 0 -15px;\A 3:     height: 6rem;\A 4:     font-size: 2rem;\A 5:     line-height: 6rem;\A 6:     text-align: center;\A 7:     color: $white;\A 8:     background: $dark-blue;\A 9:     cursor: pointer;\A 10: }\A 11: nav {\A 12:     position: relative;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 4 of scss/introStyle.scss\A \A 1: #intro {\A 2:      h3 {\A 3:         opacity: 0;\A 4:         color: $white;\A 5:          \A 6:         &:first-child {\A 7:             position: relative;\A 8:             font-size: 2em;\A 9:             text-align: center;"; }
