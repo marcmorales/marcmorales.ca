@@ -13,9 +13,11 @@ a:hover, a:focus {
   cursor: pointer; }
 
 nav {
-  position: relative;
+  position: fixed;
+  width: 100%;
   top: -6rem;
-  opacity: 0; }
+  opacity: 0;
+  z-index: 100; }
   nav ul {
     height: 0;
     list-style: none;
@@ -64,18 +66,27 @@ nav {
       text-align: center;
       border-bottom: none;
       margin-right: -4px; } }
-#intro h3 {
-  opacity: 0;
+#intro {
   color: white; }
-  #intro h3:first-child {
+  #intro h3 {
     position: relative;
-    font-size: 2em;
-    text-align: center;
-    opacity: 1;
-    top: 35vh; }
-#intro p {
-  opacity: 0; }
+    font-size: 1.5em;
+    top: 15vh; }
+  #intro p {
+    font-size: 1.2em;
+    position: relative;
+    top: 15vh; }
 
+@media screen and (min-width: 768px) {
+  #intro {
+    width: 40em;
+    padding-left: 1em; }
+    #intro h3 {
+      font-size: 2em;
+      top: 20vh; }
+    #intro p {
+      font-size: 1.5em;
+      top: 18vh; } }
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif; }
 

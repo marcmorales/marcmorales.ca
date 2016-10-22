@@ -9,9 +9,11 @@
     cursor: pointer;
 }
 nav {
-    position: relative;
+    position: fixed;
+    width: 100%;
     top:-6rem;
     opacity: 0;
+    z-index: 100;
     ul {
     height: 0;
     list-style: none;
